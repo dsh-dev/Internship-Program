@@ -1,0 +1,96 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #12171d;
+  color: #ffffff;
+  line-height: 1.6;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 0 0 5px #6851dd, 0 0 10px #6851dd, 0 0 20px #6851dd;
+  margin-bottom: 5px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 0 0 5px #64599c, 0 0 10px #64599c;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgba(15, 1, 1, 0.458);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(207, 142, 242, 0.203);
+  box-shadow: 0 0 5px #6851dd, 0 0 10px #6851dd, 0 0 20px #6851dd ,0 0 40px rgb(140, 147, 185);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+  color: #ac9d9d;
+}
+
+.btn {
+  display: inline-block;
+  margin-top:10px;
+  text-decoration: none;
+  background-color: #6851dd;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor:pointer;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color:#947ae44d ;
+}
